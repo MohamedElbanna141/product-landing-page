@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <section class="mainSection">
+        <header>
+            <img src="Images/coca cola logo.png" alt="">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </header>
+        <div id="main">
+            <div class="content">
+                <h1>Without a Coca-Cola<br></h1>
+                <h2>life is Unthinkable</h2>
+             <p>We build loved brands <br> that bring joy to our consumers’ lives <br> with beverage choices for all occasions, tastes and lifestyles.</p>
+             <div class="view"><a href="">View All Products</a></div>
+             
+            </div>
+            <div>
+                <img src="Images/coca cola red can.png" alt="" id="mainIMG">
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li  onclick="changeIMG('Images/coca cola red can.png')"><img src="Images/coca cola red can.png" alt=""></li>
+                <li onclick="changeIMG('Images/coca cola white can.png')"><img src="Images/coca cola white can.png" alt=""></li>
+                <li onclick="changeIMG('Images/coca cola black can.png')"><img src="Images/coca cola black can.png" alt=""></li>
+            </ul>
+        </footer>
+    </section>
+
+
+    <script src="script.js" type="text/javascript"></script>
+    <!-- <script>
+        function changeIMG(path){
+       document.querySelector('#mainIMG').src = path; 
+        }
+    </script> -->
+</body>
+</html>
