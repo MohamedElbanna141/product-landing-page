@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&family=Ubuntu:wght@500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+section {
+    width: 50%;
+    transform: translateX(50%);
+    text-align: center;
+}
+#startSection h1 {
+    color: white;
+    font-family:ubuntu;
+    font-size: 50px;
+    transform: translateY(30%);
+}
+#startSection :hover {
+    cursor: pointer;
+    color: rgb(110, 235, 82);
+    font-size: 60px;
+    transform: translateY(15%);
+    transition: 0.2s;
+}
+#startSection {
+    height: 100px;
+    background-color: rgb(43, 173, 233);
+    margin-top: 100px;
+    border-radius: 20px;
+    display: block;
+}
+.gameHeader {
+    height: 40px;
+    text-align: left;
+    display: flex;
+    font-size: 20px;
+    margin: 15px;
+    transform: translateY(7px);
+    border-radius: 20px;
+    background-color: white;
+}
+.gameHeader h3 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.number {
+    transform: translateX(280px);
+}
+.image {
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    margin-left: 18px;
+}
+#question {
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+}
+.options {
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.options li {
+    text-align:start;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+.demo {
+    transform: translateX(20px);
+}
+.options li:hover {
+    border: 2px solid rgb(63, 205, 248);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.score {
+    display: flex;
+}
+.score h3 {
+    margin: 5px;
+    transform: translateX(300px);
+}
+#gameSection {
+    height: 650px;
+    margin-top: 50px;
+    font-family:ubuntu;
+    background-color: rgb(212, 215, 216);
+    border-radius: 20px;
+    display: none;
+}
+#summarySection {
+    height: 600px;
+    background-color: rgb(212, 215, 216);
+    font-family:ubuntu;
+    margin-top: 100px;
+    display: none;
+}
+#summarySection h1 {
+    height: 60px;
+    font-size: 45px;
+    margin: 30px;
+    transform: translateY(10px);
+}
+#correct {
+    font-size: 150px;
+    display: none;
+}
+#wrong {
+    font-size: 150px;
+    display: block;
+}
+#winner {
+    display: none;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#loser {
+    display: none;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#summarySection div h4 {
+    font-size: 25px;
+}
+.one {
+    display: flex;
+    margin-top: 50px;
+}
+.one div h2 {
+    margin: 10px;
+    font-size: 25px;
+    
+    transform: translateX(80px);
+}
+.right-questions {
+    transform: translateX(180px);
+}
+#play {
+    height: 70px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    transform: translateX(250px);
+    margin-top: 30px;
+    background-color: white;
+    display: none;
+}
+#play h3 {
+    transform: translateY(10px);
+}
+#try {
+    height: 70px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    transform: translateX(250px);
+    margin-top: 30px;
+    background-color: white;
+}
+#try h3 {
+    transform: translateY(10px);
+}
+#summarySection :hover {
+    cursor: pointer;
+}
